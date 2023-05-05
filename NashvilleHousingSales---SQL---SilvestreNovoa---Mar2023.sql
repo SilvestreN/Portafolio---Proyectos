@@ -5,7 +5,7 @@
 
 /*   SKILLS:  UPDATE, ALTER TABLE, ROW_NUMBER, ISNULL, CHARINDEX, SUBSTRING, PARSENAME, CONVERT, Columnas correlacionadas, etc  */
  
-		/*   Fuente de Datos: https://ourworldindata.org/covid-deaths   */
+
 
 
 
@@ -48,7 +48,7 @@ FROM NashvilleHousing.dbo.NHousing
 
 
 ---- Null of PropertyAddress data
-	--Los Nulls de PropertyAddress estan correlacionadas con ParcelID el numero de identificación del terreno, asumiendo que no cambian, 
+	--Los Nulls de PropertyAddress estan correlacionadas con ParcelID el numero de identificaciÃ³n del terreno, asumiendo que no cambian, 
 		--se puede obtener el PropertyAddress de otras transacciones (UniqueID) asociadas al mismo ParcelID.
 
 SELECT *
